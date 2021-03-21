@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazy_button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var button: UIButton = {
+        var &lt;#Description#&gt; : UIButton = UIButton.init(type: .custom)
+        &lt;#Description#&gt;.addTarget(self, action: #selector(&lt;#method_name#&gt;), for: .touchUpInside)
+        &lt;#Description#&gt;.backgroundColor = UISystemColor.&lt;#color#&gt;
+        &lt;#Description#&gt;.setTitle(&lt;#title#&gt;, for: .normal)
+        &lt;#Description#&gt;.setTitle(&lt;#title#&gt;, for: .highlighted)
+        &lt;#Description#&gt;.setTitle(&lt;#title#&gt;, for: .selected)
+        &lt;#Description#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: .normal)
+        &lt;#Description#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: .highlighted)
+        return &lt;#Description#&gt;
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F50FAE4D-02CD-45ED-8EB4-99A75C0DFDEE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>btn 懒加载_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

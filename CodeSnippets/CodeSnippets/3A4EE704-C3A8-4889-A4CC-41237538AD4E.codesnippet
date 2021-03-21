@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Control_Label</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>var &lt;#Description#&gt; = UILabel.init()
+        &lt;#Description#&gt;.textColor = UISystemColor.&lt;#color#&gt;
+        &lt;#Description#&gt;.text = &lt;#text#&gt;
+        &lt;#Description#&gt;.textAlignment = &lt;#(NSTextAlignment)#&gt;
+        &lt;#Description#&gt;.font = UIFont.systemFont(ofSize: &lt;#T##CGFloat#&gt;)
+        &lt;#baseView#&gt;.addSubview(&lt;#Description#&gt;)
+        &lt;#Description#&gt;.snp.makeConstraints { (make) in
+            &lt;#code#&gt;
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3A4EE704-C3A8-4889-A4CC-41237538AD4E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建Label_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

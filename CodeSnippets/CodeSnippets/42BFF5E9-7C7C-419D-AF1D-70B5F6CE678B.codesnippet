@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Control_TableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> var &lt;#tableView#&gt; : &lt;#UITableView#&gt; = &lt;#UITableView#&gt;.init(frame: CGRect(x: 0, y: 0, width: 0, height: 0), style: .plain)
+        &lt;#tableView#&gt;.estimatedSectionFooterHeight = 0
+        &lt;#tableView#&gt;.estimatedSectionHeaderHeight = 0
+        &lt;#tableView#&gt;.backgroundColor = UISystemColor.&lt;#color#&gt;
+        &lt;#tableView#&gt;.separatorStyle = .none
+        &lt;#tableView#&gt;.dataSource = self
+        &lt;#tableView#&gt;.delegate = self
+        return &lt;#tableView#&gt;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>42BFF5E9-7C7C-419D-AF1D-70B5F6CE678B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建tableView_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

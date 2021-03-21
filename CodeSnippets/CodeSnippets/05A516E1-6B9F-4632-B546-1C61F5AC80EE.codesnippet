@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Method_UITableViewHeaderFooterView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>static NSString *cellId = @"NULLCellId";
+UITableViewHeaderFooterView *headerView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:cellId];
+if (headerView == nil) {
+    headerView = [[UITableViewHeaderFooterView alloc] initWithReuseIdentifier:cellId];
+    headerView.clipsToBounds = YES;
+    [headerView setFrame:CGRectZero];
+    [headerView.contentView setBackgroundColor:[UIColor clearColor]];
+}
+return  headerView;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>05A516E1-6B9F-4632-B546-1C61F5AC80EE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableViewHeaderFooterView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

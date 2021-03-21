@@ -1,0 +1,12 @@
+必看：
+代码块：
+
+将CodeSnippets下的文件（不要把将文件夹整体拖入），放入Xcode代码块。
+代码块路径：~/Library/Developer/Xcode/UserData/CodeSnippets
+
+使用方式 
+-------------
+1、懒加载 lazy_
+2、方法：Method_
+3、分割：Mark_
+4、UI相关(比如 btn): Control_

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Control_Button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#Description#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+[&lt;#Description#&gt; setBackgroundColor:[UISystemColor &lt;#color#&gt;]];
+[&lt;#Description#&gt;.titleLabel setFont:[UIFont systemFontOfSize:&lt;#Description#&gt;]];
+[&lt;#Description#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+[&lt;#Description#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateHighlighted];
+[&lt;#Description#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateSelected];
+[&lt;#Description#&gt; setTitleColor:[UISystemColor &lt;#color#&gt;] forState:UIControlStateNormal];
+[&lt;#Description#&gt; setTitleColor:[UISystemColor &lt;#color#&gt;] forState:UIControlStateHighlighted];
+[&lt;#baseView#&gt; addSubview:&lt;#Description#&gt;];
+[&lt;#Description#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+    
+}];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E9BA781D-7638-4BEF-97AE-9218C80B8FE0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

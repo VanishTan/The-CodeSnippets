@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UILabelline</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> UILabel *line = [[UILabel alloc] init];
+        [line setBackgroundColor:[UISystemColor getMainBackGroundBlack]];
+        [self.contentView addSubview:line];
+        
+        [line mas_makeConstraints:^(MASConstraintMaker *make){
+            make.left.right.bottom.equalTo(self.contentView);
+            make.height.mas_equalTo(@0.5);
+        }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8336C9F6-BD5A-41E6-BF66-F9433000F358</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UILabelline</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UILabelline</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Control_Button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>var &lt;#Description#&gt; : UIButton = UIButton.init(type: .custom)
+        &lt;#Description#&gt;.backgroundColor = UISystemColor.&lt;#color#&gt;
+        &lt;#Description#&gt;.setTitle(&lt;#title#&gt;, for: .normal)
+        &lt;#Description#&gt;.setTitle(&lt;#title#&gt;, for: .highlighted)
+        &lt;#Description#&gt;.setTitle(&lt;#title#&gt;, for: .selected)
+        &lt;#Description#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: .normal)
+        &lt;#Description#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: .highlighted)
+        &lt;#baseView#&gt;.addSubview(&lt;#Description#&gt;)
+        &lt;#Description#&gt;.snp.makeConstraints { (make) in
+            &lt;#code#&gt;
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DCFA2689-04FD-45FE-90F0-40FD930C8113</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建Button_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

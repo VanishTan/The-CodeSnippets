@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIAlertController1</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"提示" message:nil preferredStyle:(UIAlertControllerStyleActionSheet)];
+    
+    // 创建按钮
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction *action) {
+        
+    }];
+    // 创建按钮
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:(UIAlertActionStyleCancel) handler:^(UIAlertAction *action) {
+        
+    }];
+    
+    // 创建警告按钮
+    UIAlertAction *structlAction = [UIAlertAction actionWithTitle:@"警告" style:(UIAlertActionStyleDestructive) handler:^(UIAlertAction *action) {
+        
+    }];
+    
+    // 添加按钮
+    [alertController addAction:okAction];
+    [alertController addAction:cancelAction];
+    [alertController addAction:structlAction];
+    
+    // 只有在alert情况下才可以添加文本框
+    [alertController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+        textField.placeholder = @"用户名";
+        textField.secureTextEntry = YES;
+    }];
+    
+    //    // 取出文本
+    //    UITextField *text = alertController.textFields.firstObject;
+    //    UIAlertAction *action = alertController.actions.firstObject;
+    
+    // 将UIAlertController模态出来 相当于UIAlertView show 的方法
+    [self presentViewController:alertController animated:YES completion:nil];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>917E5040-439A-43C3-85A2-7DBCBFE1D28E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIAlertController1</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAlertController1</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
